@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+        <meta name="description" content="My Registration Form for CodingDojo">                
+        <title>My Registration Form</title>
+        <link rel="stylesheet" href="style.css" type="">
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <label style="width:120px; font-size:13px; display:inline-block;" for="firstname">First Name</label> <input title="First Name" type="text" id="firstname" pattern="[A-Za-z]" required><br><br>
+            <label style="width:120px; font-size:13px; display:inline-block;" for="lastname">Last Name:</label> <input title="Last Name" type="text" id="lastname" pattern="[A-Za-z]" required><br><br>
+            <label style="width:120px; font-size:13px; display:inline-block;" for="email">Email:</label> <input title="EMail" type="email" id="email" required><br><br>
+            <label style="width:120px; font-size:13px; display:inline-block;" for="psw">User password:</label> <input type="password" id="psw" required><br><br>      
+            <label style="width:120px; font-size:13px; display:inline-block;" for="pswconfirm">Password Confirm:</label> <input type="password" id="pswconfirm" required><br><br>      
+            <label style="width:120px; font-size:13px; display:inline-block;" for="birthday">Birthday:</label> <input title="Birthday" type="date" id="birthday" min="1920-01-01" max="2016-01-01" required><br><br>
+
+        <div>        
+            <input type="radio" name="gender" value="Male" id="male" checked><Label for="male">Male</Label>
+            <input type="radio" name="gender" value="Female" id="female"> <Label for="female">female</Label>
+            <input type="radio" name="gender" value="Other" id="other"> <Label for="other">other</Label>
+        </div>
+        <br>
+
+        <label for="aboutmyself">A short declaration about yourself</label><br>
+        <textarea id="aboutmyself" cols="50" rows="5"></textarea>    
+        <br><br>
+        <label for="cars">Favorite Language</label>
+            <select id="cars" > 
+                    <option value="javascript">Javascript</option>
+                    <option value="c#">C#</option>
+                    <option value="visualbasic">Visual Basic</option>
+                    <option value="python">Python</option>
+                </select>
+                <br><br>
+                <input type="submit">
+        </form>    
+    </body>
+</html>                                    
+
+    
