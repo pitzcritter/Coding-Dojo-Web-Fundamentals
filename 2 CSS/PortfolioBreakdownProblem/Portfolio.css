@@ -1,0 +1,161 @@
+body *{
+	padding:0px;
+	margin:0px;
+	font-family: Arial;
+}
+.wrapper {
+	width:968px;
+	height:970px;
+    background: radial-gradient(#1c0c10,#6f5964)
+}
+.header {
+	width:938px;
+	height: 30px;
+	padding:15px;
+    /* background: linear-gradient( lightgrey, white, lightgrey);     */
+}
+.header h2{
+	display:inline-block;
+	margin-right: 480px;
+}
+.header h3 {
+	display:inline-block;
+}
+.main-content{
+	padding:20px 20px;
+	width:929px;
+	height:870px;
+    background-color: #0f1822;
+	background: -webkit-radial-gradient(#6f5964, #1f0f13); /* Safari 5.1- 6.0 */
+    background: -o-radial-gradient(#6f5964, #1f0f13); /* Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#6f5964, #1f0f13); /* Firefox 3.6-15 */
+    background: radial-gradient(#6f5964, #1f0f13); /* Standard syntax */    
+}
+.secondrow{
+    margin-right: 11px;
+}
+.main-content img{
+    margin-bottom: 20px;
+    margin-right: 5px;
+    /* margin-right: 4px; */
+	width:410px;
+	height:auto;
+	border: 5px solid #7d7377;
+}
+.main-content .about_me{
+    width: 490px;
+    display:inline-block;
+    vertical-align: top;
+    height:280px;
+    background-color: lightgray;
+}
+.content{
+    background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+    text-align: center;
+}
+.main-content .about_me h2 {
+    padding: 5px 10px;
+    color:white;
+    background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+}
+.main-content p {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+.main-content a{
+	padding-left: 10px;
+}
+.main-content .content {
+    width:295px;
+    height: 570px;
+    display : inline-block;
+    background-color: lightgray;
+    vertical-align: top;
+    background: -webkit-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom right, #fefefe, #dbcbda); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda); /* Standard syntax */
+}
+.main_content .content.spacing {
+	margin-right:15px;
+}
+.content img, 
+.content ul {
+	width: 293px;
+	margin:0;
+}
+.content h2 {
+    width: 273;
+    padding: 5px 10px;
+    color: white;
+    background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+}
+.content img {
+	border:none;
+}
+.content p {
+	width: 278;
+}
+.theseimages {
+	padding:15px 0px 0px 12px;
+}
+.theseimages li {
+	display: inline-block;
+	margin-right:10px;
+}
+.theseimages img {
+	width:40px;
+	height:40px;
+}
+.content button {
+	background-color: #0e7b49;
+	color:white;
+	border:solid 1px black;
+	border-radius: 3px;
+	padding:5px;
+    margin: 10px;/* 100px;     */
+	font-weight: 900;
+
+}
+#socialfooter {
+    width:968px;
+    height:auto;    
+    display:inline-block;
+    text-align: center;
+}
+#socialfooter p {
+    margin:auto;
+    margin-top: 5px;
+    width: 340px;
+    display:inline-block;
+    text-align: center;
+}
+#socialfooter ul {
+	width: 480px;
+    margin:auto;
+    margin-top: 5px;
+    display:inline-block;
+}
+#socialfooter ul li {
+    display:inline-block;
+    /* original */
+}
+#social-image {
+    /* .footer img { */
+    width: 25px;
+    height: auto;
+    margin: auto;
+    display:inline-block;
+}
+#socialfooter, .header {
+	background-color: #f9f9f9
+}
