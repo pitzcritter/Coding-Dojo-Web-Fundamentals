@@ -149,7 +149,7 @@ body *{
     display:inline-block;
     /* original */
 }
-#social-image {
+.social-image {
     /* .footer img { */
     width: 25px;
     height: auto;
