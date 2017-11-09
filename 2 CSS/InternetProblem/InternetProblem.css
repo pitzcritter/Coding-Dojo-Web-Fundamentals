@@ -1,0 +1,172 @@
+*{
+    /*border: 1px dotted red;*/
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+/* ===================== */
+.wrapper {
+	width: 960px;
+	height: 100px;
+}
+.wrapper h2 {
+	background-color: #4076a5;
+	color:white;
+	padding: 15px;
+	margin-top: -15px
+}
+/* ===================== */
+.globe {
+	width: 99%;
+}
+.globe img{
+	width: 50px;
+	height: auto;
+}
+.globe h1{
+	display:inline-block;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+.globe h1 span {
+	color:#28659d;
+}
+
+.main{
+    background: -webkit-linear-gradient(to top, #ffffff, #f5f5f5); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to top, #ffffff, #f5f5f5); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to top, #ffffff, #f5f5f5); /* Firefox 3.6-15 */
+    background: linear-gradient(to top, #ffffff, #f5f5f5); 
+}
+/* ===================== */
+.sidebar{
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+}
+.sidebar p{
+	font-weight: 900;
+	margin-left: 5px;
+}
+.sidebar .redtext {
+	color:red;
+}
+.sidebar span {
+	color:#28659d ;
+}
+.sidebar button {
+	width: 95%;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: white;
+	font-weight: 900;
+}
+.sidebar .blue_button{
+	background-color: #3a74a8;
+}
+.sidebar .orange_button{
+	background-color: #ec8c19;
+}
+.sidebar div.reinvent.reinvent	{
+	background-image: url('./images/ad_background.png');
+	height: 300px;
+	padding-top: 20px;
+}
+.sidebar div.reinvent h3{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.sidebar div.reinvent	img {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+.sidebar div.reinvent	button {
+	background-color: #3bc7de;
+	width: 87%;
+	padding: 5px;
+	font-size: 16px;
+	margin: 0 auto;
+	display: block;
+}
+/* ===================== */
+.main-content{
+	width: 695px;
+	display:inline-block;
+}
+.main-header {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.main-header img{
+	width:20px;
+}
+.main-header h3 {
+	display:inline-block;
+}
+.main-header .phone_img {
+    width: 45px;
+    vertical-align: top;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+.main-header .contact {
+	display:inline-block;
+	vertical-align: top;
+}
+/* ===================== */
+.contact h3 {
+	color:#14c1de;
+	font-size: 36px
+}
+.contact p {
+	font-size: 10px;
+	color: #6d6d6d;
+}
+/* ===================== */
+.main-info {
+	padding-top: 10px;
+}
+.main-info h3	{
+	color:#28659d;
+}
+.main-info h4 {
+	font-weight: normal;
+}
+.main-info h4 span {
+	font-weight: 900;
+}
+.main-info ul {
+	margin-left: 50px;
+}
+.main-info a {
+	color: #2ba7ba;
+	text-decoration: none;
+}
+.main-info img {
+	width: 200px;
+	margin: 0px auto;
+	display: block;
+}
+.main-info ol {
+	margin-left: 50px;
+}
+/* ===================== */
+.big-three {
+	margin-top: 20px;
+	border-top: 5px #0084df solid;
+	border-right: 5px #0084df solid;
+	border-left: 5px #0084df solid;
+}
+.big-three img{
+	width: 100px;
+	display: inline-block;
+}
+.big-three div	{
+	display:inline-block;
+	width: 580px;
+}
