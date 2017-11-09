@@ -1,0 +1,28 @@
+.circular {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: blue;/*url(http://link-to-your/image.jpg) no-repeat;*/
+}
+.uptriangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid blue;}
+.pacman {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0;
+    height: 0;
+    border: 20px solid blue;
+    border-right-color: rgba(255,255,255,0);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    /* font: normal  100%/normal Arial, Helvetica, sans-serif; */
+    color: black;
+    -o-text-overflow: clip;
+    text-overflow: clip;}
