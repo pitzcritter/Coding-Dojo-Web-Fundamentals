@@ -114,16 +114,16 @@ body *{
 	font-weight: 900;
 }
 .footer{
-	width:968px;
-	height:50px;
+	/* width:968px; */
+	/* height:50px; */
 }
 .footer p
 {
 	margin:auto;
-	width: 240px;
+	/* width: 240px; */
 }
 .footer ul {
-	width: 380px;
+	/* width: 380px; */
 	margin:auto;
 }
 .footer ul li {
@@ -137,4 +137,7 @@ body *{
 }
 .footer, .header{
 	background-color: #f9f9f9
+}
+#section{
+	display:inline-block;	
 }
