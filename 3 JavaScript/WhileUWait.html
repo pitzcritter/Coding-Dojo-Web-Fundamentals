@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+        <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <script  type="text/javascript">
+            var daysUntilMyBirthday = 31;
+            
+            function displayBDay(daysUntilMyBirthday){
+               
+               while (daysUntilMyBirthday >= 1)
+               {
+                
+                    if(daysUntilMyBirthday > 30)
+                    {
+                        
+                        console.log(daysUntilMyBirthday + " days yet, Sed Message.");
+                    }
+                    else if (daysUntilMyBirthday <= 30 && daysUntilMyBirthday > 4)
+                    {
+                        
+                        console.log(daysUntilMyBirthday + " days yet, excited!");
+                    }
+                    else 
+                    {
+                        
+                        console.log(daysUntilMyBirthday + " days yet, SCREAM!");
+                    }
+                    daysUntilMyBirthday--;
+               }
+               console.log("Happy BD!");
+               alert("Happy BD!");
+            }
+            displayBDay(daysUntilMyBirthday);            
+       </script>
+    </head>
+    <body>
+        <h1>##fjkdsl</h1>
+    </body>
+</html>

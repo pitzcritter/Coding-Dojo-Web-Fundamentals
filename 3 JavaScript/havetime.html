@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+        <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <script  type="text/javascript">
+                var HOUR = 8;
+                var MINUTE = 50;
+
+                // var HOUR = 7;
+                // var MINUTE = 15;
+                // var PERIOD = "PM";
+
+                var PERIOD = "AM";
+                var thisText;
+                var nearText;
+                
+                if (PERIOD== "AM")
+                    { thisText= "morning";}
+                else
+                    { thsText= "evening";}
+
+
+                if(MINUTE >= 50)
+                {
+                    nearText="almost"
+                }
+                else if (MINUTE<= 10)
+                {
+                    nearText="after"
+                }
+                else 
+                {
+                    console.log("oops!");
+                }                
+                console.log("It's " + nearText + " " +  HOUR + " in the " + thisText);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

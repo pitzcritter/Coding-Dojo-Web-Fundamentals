@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Billion</title>
+        <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+        <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">       
+
+<script type="text/javascript">
+            var earnings = .01;
+            var amount = .01;
+            for (var day = 2; day <= 100000; day++) 
+            {
+                earnings *= 2;
+                amount += earnings;
+                if (day % 10 == 0)
+                {
+                    // alert("2");
+                    alert("earnings: " + Math.round(earnings).toLocaleString()  + "\n   amount: " + Math.round(amount).toLocaleString());                
+                }
+                if(amount == Infinity)
+                {
+                    alert(day.toLocaleString());
+                    break
+                };
+            }
+        </script>
+    </head>
+    <body>
+        <h1>##fjkdsl</h1>
+    </body>
+</html>
