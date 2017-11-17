@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+        <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <script  type="text/javascript">
+
+            var students = [
+                { first_name: 'Michael', last_name: 'Jordan' },
+                { first_name: 'John', last_name: 'Rosales' },
+                { first_name: 'Mark', last_name: 'Guillen' },
+                { first_name: 'KB', last_name: 'Tonel' }
+            ]
+
+            /*Create a program that outputs:
+            Michael Jordan
+            John Rosales
+            Mark Guillen
+            KB Tonel*/
+            for (var i = 0; i < students.length; i++) {
+                console.log(students[i].first_name + " " + students[i].last_name);
+            }
+
+            //given:
+            var users = {
+                'Students': [
+                    { first_name: 'Michael', last_name: 'Jordan' },
+                    { first_name: 'John', last_name: 'Rosales' },
+                    { first_name: 'Mark', last_name: 'Guillen' },
+                    { first_name: 'KB', last_name: 'Tonel' }
+                ],
+                'Instructors': [
+                    { first_name: 'Michael', last_name: 'Choi' },
+                    { first_name: 'Martin', last_name: 'Puryear' }
+                ]
+            }
+
+            /*
+            Students
+            1 - MICHAEL JORDAN - 13
+            2 - JOHN ROSALES - 11
+            3 - MARK GUILLEN - 11
+            4 - KB TONEL - 7
+            Instructors
+            1 - MICHAEL CHOI - 11
+            2 - MARTIN PURYEAR - 13
+            */
+            console.log(" ");
+            console.log("Students");
+            for (var i = 0; i < users.Students.length; i++) {
+                var str = users.Students[i].first_name + users.Students[i].last_name;    
+                console.log(i + 1 + " - " + users.Students[i].first_name + " " + users.Students[i].last_name + ' - ' + str.length);
+            }
+            console.log(" ");
+            console.log("Instructors");
+            for (var i = 0; i < users.Instructors.length; i++) {
+                var str = users.Instructors[i].first_name + users.Instructors[i].last_name;
+                console.log(i + 1  + " - " + users.Instructors[i].first_name + " " + users.Instructors[i].last_name + ' - ' + str.length);
+            }
+       </script>
+    </head>
+    <body>
+        <h1>##fjkdsl</h1>
+    </body>
+</html>

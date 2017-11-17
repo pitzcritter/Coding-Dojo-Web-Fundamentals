@@ -1,0 +1,9 @@
+{
+  "name": "studenttsand-teachers",
+  "version": "0.0.0",
+  "description": "StudenttsandTeachers",
+  "main": "app.js",
+  "author": {
+    "name": "Brian"
+  }
+}

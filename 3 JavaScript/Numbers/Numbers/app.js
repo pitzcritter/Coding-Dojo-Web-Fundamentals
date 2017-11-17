@@ -20,3 +20,13 @@
             }
             var newArray = removeNumbers([1, "apple", -3, "orange", 0.5]);
             console.log(newArray);
+
+            console.log("arg");
+            console.log(1 == true);
+            console.log(2 == "2");
+            console.log("hello" === 'hello');
+            console.log(!false);
+            console.log(Math && console);
+            console.log(1 && "");
+            console.log(null || undefined);
+
