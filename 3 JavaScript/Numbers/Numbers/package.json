@@ -1,0 +1,9 @@
+{
+  "name": "numbers",
+  "version": "0.0.0",
+  "description": "Numbers",
+  "main": "app.js",
+  "author": {
+    "name": "Brian"
+  }
+}
