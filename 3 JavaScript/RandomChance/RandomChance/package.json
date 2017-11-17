@@ -1,0 +1,9 @@
+{
+  "name": "random-chance",
+  "version": "0.0.0",
+  "description": "RandomChance",
+  "main": "app.js",
+  "author": {
+    "name": "Brian"
+  }
+}

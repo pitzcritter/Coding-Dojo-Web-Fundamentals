@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Billion</title>
+        <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+        <script type="text/javascript" src="../jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">       
+
+        <script type="text/javascript">
+            
+            'use strict';
+            function flip(coins) {
+                var won;
+                var winnings = 0;
+            
+                for (var i = 0; i < coins; i++) {
+                    if (Math.floor(100 * Math.random()) + 1 == 100)
+                        won = true;
+                    else
+                        won = false;
+                    if (won) {
+                        winnings = 50 + Math.floor(50 * Math.random()) + 1;
+                        return i + winnings;
+                    }
+                }
+                return 0;
+            }
+            console.log(flip(100));
+            console.log('---------- game 2')
+            function playGames(coins, min, max) {
+                var winnings = 0;
+                var tosses = 0;
+                //var won;
+                do {
+                    if (Math.floor(100 * Math.random()) + 1 == 100) {
+                        winnings = 50 + Math.floor(50 * Math.random()) + 1;
+                        coins += winnings;
+                        if (coins >= max) {
+                            console.log('tosses: ' + tosses);
+                            return coins;
+                        }
+                    }
+                    coins--;
+                    tosses++;
+                } while (coins > min) 
+                console.log('tosses: ' + tosses);
+                return coins;
+            }
+            console.log("winnings: " + playGames(100, 40, 200));        </script>
+    </head>
+    <body>
+        <h1>##fjkdsl</h1>
+    </body>
+</html>
