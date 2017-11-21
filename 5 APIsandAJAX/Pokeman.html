@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokeman</title>
+    <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+    <!-- <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>     -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            for (var i = 1; i < 151; i++) {
+                // $('body').append(`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${i}.png">`) 
+                $('body').append(`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">`) 
+            }
+        });
+    </script>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <h1>Pokeman</h1>                    
+        </div>
+    </body>
+
+    <!-- <div class="footer"  style="background-color: lightblue; height:50px;">    
+            <h1></h1>
+            <button>Show Pics</button>
+    </div> -->
+</html>
