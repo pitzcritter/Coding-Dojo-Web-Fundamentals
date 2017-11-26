@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>    
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>     -->
+    <!-- <script type="text/javascript" src=  "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>     -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>     -->
+    <script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="weather.js"></script>
+
+    <!-- <script type="text/javascript">
+       $(function(){
+          alert("My First Jquery Test");
+       });
+    </script> -->
+</head>
+<body>
+    <div class = 'container-fluid'>
+    <nav class = 'navbar navbar-inverse navbar-fixed-top'>
+      <div class = 'navbar-header'>
+        <a class = 'navbar-brand' href = '#'>Current Local Weather</a>              
+      </div>
+      <ul class = 'nav navbar-nav navbar-right'>
+        <li><a href = '#' id = 'toggle'><span class='glyphicon glyphicon-cloud'></span>&deg;C/&deg;F</a></li>
+        <li>
+          <!-- <a href='https://codepen.io/BPeitz/pen/jaOvzG'><span class='glyphicon glyphicon-user'></span>Brian Peitz's Pens</a></li> -->
+        <form action="/action_page.php">
+          <input list ="browsers" name ="browser" autofocus value = "Anacortes" id = "thisbrowser">
+          <datalist id="browsers">
+            <option value="Anacortes">            
+            <option value="Seattle">
+            <option value="Sedro-Woolley">
+            <option value="Vancouver, CA">
+          </datalist>
+          <!-- <input type="submit" value="City" size="10"> -->
+        </form>
+        </li>
+      </ul>
+    </nav>
+      <div class='spacer'></div>
+        <div class='block'>
+          <img src="" alt="">
+          <h1 class='text-center'>Temp: <span id='currentTemp'>...</span></h1>  
+          <h1 class='text-center'><span id='currentWeather'>...</span><br>
+            Humidity: <span id= 'humidity'></span><br>
+            City: <span id = 'city'></span><br>
+            Latitude: <span id='latitude'></span><br>
+            Longitude: <span id='longitude'></span><br>
+            Wind Speed: <span id='speed'></span><br>
+            Max Speed: <span id='gust'></span><br>
+            Direction: <span id='direction'></span><br>
+          </h1>  
+        </div>
+      <div class='spacer'></div>
+    </div>
+  </body></html>

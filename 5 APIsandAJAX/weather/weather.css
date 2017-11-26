@@ -1,0 +1,43 @@
+body{
+  font-size:15px;
+}
+.block{
+    background-color: black;
+    opacity:0.60;
+    color: white;
+    padding:20px;
+    width:45%;   
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:15px;
+    font-size:0.7em;
+    padding-bottom:5%;
+  }
+  form{
+    margin-top: 12px;
+  }
+  .nav{
+    width:350px;    
+  }  
+  .navbar-left{
+    display: inline-block;          
+  }
+  .spacer{
+    padding:4%;
+  }
+  #browswers{
+    vertical-align:bottom;     
+  }
+  input{
+    background-color: grey;
+    border-color: darkgrey; 
+    vertical-align:center;     
+  }
+  body{
+    /* background:url('https://images.pexels.com/photos/490411/pexels-photo-490411.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'); */
+  /*   background:no-repeat center center fixed; */
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
